@@ -1,0 +1,15 @@
+
+.sliderImg{
+    height: 500px;
+}
+
+.carousel-indicators [data-bs-target] {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .sliderImg{
+        height: 70vh;
+    }
+    
+}

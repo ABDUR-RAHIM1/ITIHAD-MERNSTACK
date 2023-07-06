@@ -1,0 +1,47 @@
+.adminCard{
+    height: 400px;
+    overflow-y: auto;
+    cursor:wait;
+    margin-top: 30px;
+}
+.adminCard::-webkit-scrollbar{
+    display: none;
+}
+.adminCard img{
+    height: 250px;
+}
+
+.updateAdminForm{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: crimson;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    text-align: center;
+    z-index: 990;
+    cursor:copy;
+}
+.updateAdminForm form{
+    width: 80%;
+    margin: auto;
+}
+.btnWrapper{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen  and (max-width:550px){
+    .adminCard img{
+        height: 300px;
+    }
+    .updateAdminForm{
+        width: 70%;
+    }
+}

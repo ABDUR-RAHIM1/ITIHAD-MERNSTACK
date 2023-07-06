@@ -1,0 +1,9 @@
+.blogs_container{
+    width: 75%;
+    margin: 30px auto;
+}
+@media screen and (max-width : 768px) {
+    .blogs_container{
+        width : 95%;
+    }
+}

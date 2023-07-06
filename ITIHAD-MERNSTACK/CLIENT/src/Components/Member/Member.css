@@ -1,0 +1,29 @@
+.merberCard{ 
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.merberCard img{
+    width: 100%;
+    height: 250px;
+}
+.cardBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.cardIcons{
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cardIcons:nth-child(2){
+    color:black;
+}
+.cardIcons:hover{
+    color: crimson;
+}
+

@@ -1,0 +1,26 @@
+.donarInfo{
+    margin: 30px auto;
+}
+.donationText p{
+    white-space: pre-line;
+}
+.donationText strong{
+    color: red;
+}
+
+.donationSerch{
+    width: 60%;
+    margin:50px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: crimson;
+}
+
+.donarResult{
+    overflow-x: auto;
+}
+@media screen and (max-width:750px) {
+    .donationSerch{
+        width: 90%; 
+    }
+}

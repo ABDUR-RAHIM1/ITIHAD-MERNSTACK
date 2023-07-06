@@ -1,0 +1,23 @@
+.add_blog{
+    width: 75%;
+    margin:20px auto;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+    background-color: crimson;
+    border-radius: 5px;
+}
+.formLable{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.fileIcon{
+    font-size: 45px;
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {
+     .add_blog{
+         width: 100%;
+     }
+}

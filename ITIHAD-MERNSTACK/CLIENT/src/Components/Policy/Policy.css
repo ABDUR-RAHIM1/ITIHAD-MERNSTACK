@@ -1,0 +1,20 @@
+.policyContainer {
+    padding: 30px 10px;
+    background-color: #b3b3b31c;
+}
+.policyContainer ul li {
+    list-style: decimal-leading-zero;
+    margin-top: 15px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500; 
+}
+.policyContainer h3{
+    border-bottom: 1px solid #fff700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px ;
+}
+.color{
+    color: #b5af00;
+}

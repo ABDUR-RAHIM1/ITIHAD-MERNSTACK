@@ -1,0 +1,63 @@
+.dashboardContainer {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 2px solid red;
+    background-color: rgb(13 110 253 / 10%);
+}
+.dashboardMenu{
+    width: 25%;
+    height: 100vh;
+    padding: 20px 10px;
+    background-color: #fff700; 
+}
+.dashboardMenu button{
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.btnIcons{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
+.dashboardContent {
+    width: 73%;
+    padding: 20px;
+    height: 100vh;
+    overflow-x: auto;
+}
+
+@media screen and (max-width:768px) {
+    .dashboardMenu {
+        width: 100%;
+        display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .dashboardMenu button {
+        width: auto;
+        margin: 8px;
+        font-size: 14px;
+    }
+    .btnIcons{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .dashboardContent {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+}

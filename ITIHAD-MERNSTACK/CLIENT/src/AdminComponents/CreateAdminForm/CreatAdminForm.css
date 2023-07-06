@@ -1,0 +1,13 @@
+.adminFormWrapper{
+    width: 75%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: crimson;
+}
+@media screen and (max-width:768px) {
+    .adminFormWrapper{
+        width: 100%; 
+    }
+}
+ 

@@ -1,0 +1,22 @@
+.membar_banner{
+   background-image: url("../../image/membar.PNG");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   object-fit: cover;
+   height:300px;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.blog_banner{
+    background-image: url("../../image/blog.PNG");
+}
+.membar_banner h1 {
+    background-color: #010104a1;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    border-radius: 5px;
+}
